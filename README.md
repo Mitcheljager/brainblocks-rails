@@ -1,6 +1,6 @@
 # brainblocks-rails
 
-Integrate Brainblocks (Current version v1.0.3) into Rails Asset Pipeline.
+Simplifies use of Brainblocks (Current version v1.0.3) in Rails.
 
 ## Installation
 
@@ -34,7 +34,7 @@ brainblocks(wallet, amount, currency, on_success)
 
 Example:
 ```
-brainblocks(xrb_1rube3u6iyshxpe5g737zkqnmk7jq4whoi76dw1zip5wcy4y4rm84jw3bs79, 2.5, "rai", "console.log('Payment successful!', data.token);")
+brainblocks("xrb_1rube3u6iyshxpe5g737zkqnmk7jq4whoi76dw1zip5wcy4y4rm84jw3bs79", 2.5, "rai", "console.log('Payment successful!', data.token);")
 ```
 
 https://brainblocks.io/
