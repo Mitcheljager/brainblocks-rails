@@ -31,10 +31,11 @@ brainblocks(wallet, amount, currency, on_success)
 ```
 
 `on_success` Takes javascript. In the future I hope to support Rails actions.
+`amount` Is in Rai; 1000 Rai = 0.001 XRB (or 1 Mxrb)
 
 Example:
 ```
-brainblocks("xrb_1rube3u6iyshxpe5g737zkqnmk7jq4whoi76dw1zip5wcy4y4rm84jw3bs79", 2.5, "rai", "console.log('Payment successful!', data.token);")
+brainblocks("xrb_1rube3u6iyshxpe5g737zkqnmk7jq4whoi76dw1zip5wcy4y4rm84jw3bs79", 1000, "rai", "console.log('Payment successful!', data.token);")
 ```
 
 https://brainblocks.io/
