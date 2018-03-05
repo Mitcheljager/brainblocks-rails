@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Mitchel"]
   spec.email         = ["mitchel_jager@hotmail.com"]
 
-  spec.summary       = %q{Simplified use of Brainblocks (Raiblocks [RBX] payment) in Rails}
-  spec.description   = %q{Simplified use of Brainblocks (Raiblocks [RBX] payment) in Rails}
+  spec.summary       = %q{Simplified use of Brainblocks (Nano payment) in Rails}
+  spec.description   = %q{Simplified use of Brainblocks (Nano payment) in Rails}
   spec.homepage      = ""
   spec.license       = "MIT"
 

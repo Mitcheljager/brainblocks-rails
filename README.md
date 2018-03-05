@@ -1,6 +1,6 @@
 # brainblocks-rails
 
-Simplifies use of Brainblocks (Current version v1.0.3) in Rails.
+Simplifies use of Brainblocks in Rails.
 
 ## Installation
 
